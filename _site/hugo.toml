@@ -1,8 +1,45 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Mutual Aid of the Poconos'
 [markup.highlight]
 noclasses = false
 style = "github"
 [[module.imports]]
 path = "github.com/willfaught/paige"
+
+[params.paige.site]
+disable_copyright = true
+disable_credit = true
+disable_description = true
+disable_license = true
+disable_title = true
+disable_breadcrumbs = true
+disable_menu = true
+
+[params.paige.pages]
+disable_authors = true
+disable_collections = true
+disable_date = true
+disable_description = true
+disable_edit = true
+disable_history = true
+disable_keywords = true
+disable_next = true
+disable_pages = true
+disable_prev = true
+disable_reading_time = true
+disable_sections = true
+disable_series = true
+disable_title = true
+disable_toc = true
+disable_word_count = true
+full_width = false
+
+[params.paige.subpages]
+disable_authors = true
+disable_date = true
+disable_keywords = true
+disable_reading_time = true
+disable_series = true
+disable_summary = true
+disable_word_count = true
